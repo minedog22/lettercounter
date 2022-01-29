@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 600px;
+  height: 400px;
+  border: 3px solid rgb(9, 65, 65);
+  border-radius: 5px;
+  font-family: Comic Sans Ms;
+}
+
+.bar {
+  fill: purple;
+  transition: 0.2s all;
+  border-radius: 10px;
+}
+
+.area {
+  margin-top: 30px;
+  resize: none;
+  width: 300px;
+  height: 150px;
+}
+
+.label {
+  transform: translateX(-5px);
+}
