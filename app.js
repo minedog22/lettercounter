@@ -5,6 +5,7 @@ const textarea = document.querySelector("textarea");
 let textdata = "";
 let countArray = [];
 textarea.addEventListener("keyup", (e) => onChange(e));
+textarea.addEventListener("keydown", (e) => onChange(e));
 
 const onChange = (e) => {
   textdata = e.target.value.split("");
