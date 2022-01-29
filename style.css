@@ -21,6 +21,7 @@ body {
   resize: none;
   width: 300px;
   height: 150px;
+  font-family: Roboto;
 }
 
 .label {
